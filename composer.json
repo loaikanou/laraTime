@@ -1,0 +1,22 @@
+{
+    "name": "loaikanou/laratime",
+    "description": "Simple package to show time",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Loai N Kanou",
+            "email": "Loai.net@gmail.com",
+            "homepage": "http://loai.xyz"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "loaikanou\\laratime\\TimezonesServiceProvider"
+            ]
+        }
+    },
+    "license": "MIT"
+}
